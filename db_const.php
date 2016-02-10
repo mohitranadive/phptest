@@ -6,6 +6,6 @@
 	const DB_NAME = 'testphp';
 	$servername = 'localhost';
 	$username = 'root';
-	$password = '';
+	$password = 'avinash123';
 
 ?>
