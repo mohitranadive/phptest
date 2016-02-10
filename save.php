@@ -9,7 +9,7 @@ $applink=$_POST["applink"];
 $deadline=$_POST["deadline"];
 
 include("db_const.php");
-$conn = mysql_connect($dbhost, $dbuser, $dbpass);
+$conn = mysql_connect($servername , $username, $password);
 if(! $conn )
 {
   die('Could not connect: ' . mysql_error());
